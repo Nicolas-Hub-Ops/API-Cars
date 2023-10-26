@@ -35,8 +35,7 @@ class controller {
         try {
             const cliente = await clientes.create({
                 foto: req.body.foto,
-                firstName: req.body.firstName,
-                lastName: req.body.lastName,
+                name: req.body.name,
                 email: req.body.email,
                 country: req.body.country,
                 state: req.body.state,

@@ -3,8 +3,7 @@ import mongoose from "mongoose";
 const ClienteSchema = new mongoose.Schema({
     id: { type: mongoose.Schema.Types.ObjectId },
     foto: { type: String, required: false },
-    firstName: { type: String, required: true },
-    lastName: { type: String, required: true },
+    name: { type: String, required: true },
     email: { type: String, required: true },
     country: { type: String, required: true },
     state: { type: String, required: true },

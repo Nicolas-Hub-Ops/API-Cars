@@ -3,7 +3,7 @@
 # Link da api:
 > https://projeto-2hcbro0ae-nicolasnilo14-gmailcom.vercel.app/clientes
 
-> Esta API em terá como objetivo fornecer informações de veículos cadastrados, nela será possível cadastrar, modificar e excluir um veículo do banco de dados.
+> Esta API em terá como objetivo fornecer informações de clientes cadastrados, nela será possível cadastrar, modificar e excluir um clientes do banco de dados.
 
   
   
@@ -30,3 +30,7 @@
 > Criamos os modelos, controladores e rotas
 
 > Método CRUD 	Create, Read, Update and Delete funcionando.  
+
+> Tratamento de erros com TRY e CATCH realizados com sucesso
+
+> Deploy no vercel feito com sucesso
